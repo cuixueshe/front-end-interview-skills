@@ -9,19 +9,19 @@
 为不知道如何 **准备面试** 的小伙伴提供参考，收集 **必要的** 面试题目，更多的是侧重于如何去准备，其次是提供相应的资料。愿景是：提供出一套面试准备线路，你只需要按照这个线路图去做就能最大限度的节省你的时间，把时间专注于吸收知识的过程。
 
 ## 使用方式
-第一步：阅读 [thinking]()，做一些思想准备
+第一步：阅读 [thinking](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/thinking.md)，做一些思想准备
 
-第二步：阅读 [subjects]()，了解前端面试需要准备的知识涉及面以及它们的深度
+第二步：阅读 [subjects](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/subjects.md)，了解前端面试需要准备的知识涉及面以及它们的深度
 
-第三步：结合第二步制定出自己的计划书，可以参考 [plan]()
+第三步：结合第二步制定出自己的计划书，可以参考 [plan](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/plan.md)
 
-第四步：从 [materials]()中寻找适合自己的资料，这里的资料都是精心筛选过的，如果依然找不到你需要的资料，可以提issue，或者你有更好的资料，可以阅读下面的 **贡献指南** 后将你的资料贡献进来。
+第四步：从 [materials](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/materials.md)中寻找适合自己的资料，这里的资料都是精心筛选过的，如果依然找不到你需要的资料，可以提issue，或者你有更好的资料，可以阅读下面的 **贡献指南** 后将你的资料贡献进来。
 
-第五步：更新你的简历，可以参考 [resume]()，这里有简历模板
+第五步：更新你的简历，可以参考 [resume](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/resume.md)，这里有简历模板
 
 第六步：按照你第三步制定的计划开始执行
 
-第七步：自我感觉准备的不错了想试试了，请先阅读 [interview-skills]()
+第七步：自我感觉准备的不错了想试试了，请先阅读 [interview-skills](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/interview-skills.md)
 
 第六步执行过程的技巧和注意事项:
 - 
@@ -32,7 +32,7 @@
 
 - 不要提交大篇幅的用于日常提升的相关文章，这种文章一般是非常细致深入的 JavaScript 语言底层知识，需要花费大量时间才能全部理清楚，对于时间有限的面试准备收益小、耗时多。
 
-- 提交自己的推荐资料之前请仔细阅读 [materials]() 中是否已有类似资料，如果感觉自己的资料更好可以提交，我们会仔细阅读后考虑替换
+- 提交自己的推荐资料之前请仔细阅读 [materials](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/materials.md) 中是否已有类似资料，如果感觉自己的资料更好可以提交，我们会仔细阅读后考虑替换
 
 - 为你的每一个推荐都加上简介和推荐理由，阅读你的推荐文章或者书籍后能够获得什么
 
