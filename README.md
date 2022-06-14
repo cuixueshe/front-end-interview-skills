@@ -19,11 +19,11 @@
 
 第五步：更新你的简历，可以参考 [resume](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/resume.md)，这里有简历模板
 
-第六步：按照你第三步制定的计划开始执行
+第六步：按照你第三步制定的计划开始执行，再此阶段你处于公司项目要尽心，面试准备也要抓紧的情况。在做公司项目的时候，老项目建议抽时间想办法重构，相当于是对自己项目经历的复盘
 
 第七步：自我感觉准备的不错了想试试了，请先阅读 [interview-skills](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/interview-skills.md)
 
-第六步执行过程的技巧和注意事项:
+#### 第六步执行过程的技巧和注意事项:
 - 
 
 
@@ -36,7 +36,8 @@
 
 - 为你的每一个推荐都加上简介和推荐理由，阅读你的推荐文章或者书籍后能够获得什么
 
-- 
+- 不要直接将某些博主的博客地址或者 github 地址直接贴出来，要做好筛选工作
+
 
 
 
