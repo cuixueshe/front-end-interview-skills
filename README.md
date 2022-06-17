@@ -52,6 +52,7 @@
 │   ├── resume.md 简历模板
 │   ├── subjects.md 一个合格前端应该掌握的知识广度和深度的概述
 │   └── thinking.md 面试准备之前需要做的思想准备
+|── pdf PDF书籍资源
 └── question-back 题库
     └── cuixueshe.md 崔学社精品面试题库
 ```
