@@ -1,10 +1,41 @@
 本节主要分类型罗列并讲述一个前端至少应该掌握的知识涉及广度和深度。按照你自己的能力来匹配自己在每一块需要掌握的深度。下面的每个类型的相关学习资料都可以在 [materials](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/materials.md) 中找到。
 
 ## 计算机基础
-除了数据结构和算法以外的都应该降低优先级，例如编译原理，它对于前端来说也很重要，但是要记住，本仓库的核心是如何准备面试，要在有限的时间内收益最大化。编译原理，计算机组成原理等等这些应该是放在平时，你工作稳定并且不需要跳槽的时候去做。
+除了数据结构和算法以外的都应该降低优先级，例如编译原理，它对于前端来说也很重要，但是要记住，本仓库的核心是如何准备面试，要在有限的时间内收益最大化。编译原理，计算机组成原理等等这些应该是放在平时，你工作稳定并且不需要跳槽的时候好好去做。下面给想到急速过这块内容的同学画一下重点。
+
+### 数据结构
+每一种数据结构都要刷一遍，为了你更好的刷算法，这里给两个途径：
+1. 阅读短小并且利于前端扫盲的一本书《数据结构与算法JavaScript描述》
+2. 可以在 LeetCode 找到官方的数据结构教程，其余的可以自己搜索
+  - [链表](https://leetcode.cn/leetbook/detail/linked-list/) 
+  - [二叉树](https://leetcode.cn/leetbook/detail/data-structure-binary-tree/) 
+  - [队列&栈](https://leetcode.cn/leetbook/detail/queue-stack/) 
+
+### 操作系统
+  - 计算机体系结构
+  - 进程管理
+  - 内存管理
+  - 磁盘与文件
+  - 设备管理
+  - I/O
+
+### 计算机网络
+  - 计算机网络架构模型
+  - TCP
+  - IP
+  - HTTP
+  - HTTPS
+  - Websocket
+
+### 系统架构
+  - 系统架构基本概念
+  - 高并发
+  - 系统设计
+  - 分布式
+  - 大数据
 
 **建议：**
-对于计科和软工的同学我觉得可以调过这个板块，相关专业的同学，建议也不要花太多的时间，这块收益不大，等面试成功后花时间补也是可以的。
+对于计科和软工的同学我觉得可以跳过这个板块，相关专业的同学，建议也不要花太多的时间，这块收益不大，等面试成功后花时间好好补也是可以的，但是还是特别推荐你看完这个 [计算机科学速成课](https://www.bilibili.com/video/BV1EW411u7th?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=52caf91bd27255b01918b9642584d2df) ，不需要很多时间就能看完。
 
 ## 前端基础
 这里定义的前端基础是：HTML、CSS、JavaScript 的基础知识。
@@ -13,7 +44,7 @@
 
 **建议：**
 1. 这三块每块都要通读文档或者书籍（如果已经通读过可以直接调过这个步骤），我们建议你通读一本经典书籍，推荐如下：
-  - HTML：《》
+  - HTML：《HTML5权威指南》
   - CSS：《CSS揭秘》（时间紧选他）、《CSS权威指南》（时间不紧选他）
   - JavaScript：《JavaScript 高级程序设计》（更推荐）、《JavaScript权威指南》（时间不紧选他）
 2.JavaScript 还需要更进一步，你需要读完书后系统性的来个总结，所以会建议你阅读一遍别人的系列文章，资料在 [materials](https://github.com/cuixueshe/front-end-interview-skills/blob/main/guide/materials.md) 中可以找到
@@ -44,6 +75,26 @@
 ## 源码阅读
 要想说自己熟练掌握或者精通 JavaScript ，你没有研究过几个库的源码你好意思写到简历上去吗？这基本是你的核心竞争力之一，但是要注意量力而行把控难度并且要找对方法。在这里我们列举了一些比较值得阅读的开源项目，并为你做好了难度划分。
 
+### 简单
+- [vue-router](https://github.com/vuejs/router)：学习前端单页应用路由到底是怎么运行的
+- [vuex](https://github.com/vuejs/vuex)：学习状态管理基本设计，代码简单易读
+- [axios](https://github.com/axios/axios)：必看的网络封装库
+
+### 中等
+- [mini-vue](https://github.com/cuixiaorui/mini-vue)：实现vue3的核心模块，代码清晰，极力推荐
+- [solidjs](https://github.com/solidjs/solid)：用于构建用户界面的声明式、高效和灵活的JavaScript库。
+- [quill](https://github.com/quilljs/quill)：一个现代的富文本编辑器，为兼容性和可扩展性而构建，代码清晰易读，为富文本领域提供了很多思想。
+- [underscore](https://github.com/jashkenas/underscore)：学习函数式编程类库
+- [snabbdom](https://github.com/snabbdom/snabbdom)：一个专注于简单、模块化、强大特性和性能的虚拟DOM库。
+
+
+
+### 困难
+- [slate](https://github.com/ianstormtaylor/slate)：一个完全可定制的框架，用于构建富文本编辑器，架构值得学习。
+- [react](https://github.com/facebook/react)：react。
+- [vue3](https://github.com/vuejs/core)：新的架构，新的理念。
+
+
 **建议：**
 无论你基础好不好都至少要有阅读开源库的经历，最好是有自己手写的自洽的源码。
 
@@ -54,7 +105,14 @@
 
 
 
-## 计算机网路
-
 
 ## 编程技巧
+
+
+## 测试
+
+
+## 性能
+
+
+## 可视化

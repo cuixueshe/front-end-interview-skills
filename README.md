@@ -1,5 +1,5 @@
 ## 申明
-本仓库是为了帮助大家面试准备而存在，其中包含大量的资料以及 PDF 书籍，如果有侵犯到您的权利请联系我们，我们会立即配合处理，谢谢！
+**本仓库是为了帮助大家面试准备而存在，其中包含大量的资料以及 PDF 书籍，如果有侵犯到您的权利请联系我们，我们会立即配合处理，谢谢！**
 
 ## 背景
 跳槽是一个永恒的话题，但是很多人都不知道应该如何去准备面试，网上有大量的资料，但是质量参差不齐，有些小伙伴没有筛选资料的能力，收集了大量题库资料但是无从下手，或是花了很多时间去刷自己准备的题或者资料，但是效果却很差。
@@ -44,17 +44,21 @@
 
 仓库目录结构以及简介
 ```
-├── README.md 简介
-├── guide 指导模块
-│   ├── interview-skills.md 面试技巧
-│   ├── materials.md 资料集合
-│   ├── plan.md 面试计划模板，供大家参考生成自己的计划
-│   ├── resume.md 简历模板
-│   ├── subjects.md 一个合格前端应该掌握的知识广度和深度的概述
-│   └── thinking.md 面试准备之前需要做的思想准备
-|── pdf PDF书籍资源
-└── question-back 题库
-    └── cuixueshe.md 崔学社精品面试题库
+├── README.md                        简介
+├── guide                            指导模块
+│   ├── company-technology-stack.md  收集大厂的技术栈，方面对照准备
+│   ├── interview-experience.md      收集大厂的面试经验
+│   ├── interview-process.md         面试流全程
+│   ├── interview-skills.md          面试技巧
+│   ├── materials.md                 资料集合
+│   ├── plan.md                      面试计划模板，供大家参考生成自己的计划
+│   ├── resume.md                    简历模板
+│   ├── subjects.md                  一个合格前端应该掌握的知识广度和深度的概述
+│   └── thinking.md                  面试准备之前需要做的思想准备
+|── pdf                              PDF书籍资源
+└── question-back                    题库
+    ├── others.md                    题库集合
+    └── cuixueshe.md                 崔学社精品面试题库
 ```
 
 
