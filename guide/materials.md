@@ -24,7 +24,25 @@
 ## 数据结构与算法
 
 ## 源码阅读
-- [mini-vue](https://github.com/cuixiaorui/mini-vue)
+### 简单
+- [vue-router](https://github.com/vuejs/router)：学习前端单页应用路由到底是怎么运行的
+- [vuex](https://github.com/vuejs/vuex)：学习状态管理基本设计，代码简单易读
+- [axios](https://github.com/axios/axios)：必看的网络封装库
+
+### 中等
+- [mini-vue](https://github.com/cuixiaorui/mini-vue)：实现vue3的核心模块，代码清晰，极力推荐
+- [solidjs](https://github.com/solidjs/solid)：用于构建用户界面的声明式、高效和灵活的JavaScript库。
+- [quill](https://github.com/quilljs/quill)：一个现代的富文本编辑器，为兼容性和可扩展性而构建，代码清晰易读，为富文本领域提供了很多思想。
+- [underscore](https://github.com/jashkenas/underscore)：学习函数式编程类库
+- [snabbdom](https://github.com/snabbdom/snabbdom)：一个专注于简单、模块化、强大特性和性能的虚拟DOM库。
+
+
+
+### 困难
+- [slate](https://github.com/ianstormtaylor/slate)：一个完全可定制的框架，用于构建富文本编辑器，架构值得学习。
+- [react](https://github.com/facebook/react)：react。
+- [vue3](https://github.com/vuejs/core)：新的架构，新的理念。
+
 
 
 ## 前端工程化
