@@ -36,7 +36,6 @@
 - [带你在Babel的世界中畅游](https://juejin.cn/post/7025237833543581732)
 - [从Tree Shaking来走进Babel插件开发者的世界](https://juejin.cn/post/7028584587227824158)
 - [深入理解babel插件机制](https://juejin.cn/book/6946117847848321055)
-- [深入理解babel插件机制](https://juejin.cn/book/6946117847848321055)
 
 ## 计算机网路
 - [前端需要了解的计算机网络知识](https://juejin.cn/post/6844904079974465544)
@@ -46,7 +45,6 @@
 - [浅谈控制反转与依赖注入](https://zhuanlan.zhihu.com/p/33492169)
 - [JavaScript 设计模式](https://mp.weixin.qq.com/s/n3vsRQZPe0j5oIOk3umj7A)
 
-## 面经
-- [最新的前端大厂面经](https://juejin.cn/post/7004638318843412493)
+## 面试资料
 - [面试手册](https://github.com/yangshun/tech-interview-handbook?utm_source=gold_browser_extension)
 
