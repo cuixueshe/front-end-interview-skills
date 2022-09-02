@@ -70,3 +70,46 @@ Node 端：setImmediate、nextTick
 在 2.5 中，我们使用了（宏）任务（结合微任务）。但是，在重绘之前更改状态时会出现一些微妙的问题（例如#6813，out-in 转换）。此外，在事件处理程序中使用（宏）任务会导致一些奇怪的行为无法规避的（例如#7109、#7153、#7546、#7834、#8109。所以我们现在再次在任何地方使用微任务。这种权衡的一个主要缺点是存在一些场景微任务的优先级太高，据说在两者之间触发顺序事件（例如#4521、#6690，它们有解决方法）甚至在同一事件的冒泡之间（#6566）。
 
 所以 vue 目前是优先采用 `Promise.then` 或 `MutationObserver`，如果本机不支持则使用 `setImmediate`，从技术上讲，它利用（宏）任务队列，但它仍然是比 `setTimeout`` 更好的选择，如果本机不支持则使用 `setTimeout` 做最后兜底。
+
+## 阅读一下代码说出输出结果
+```javascript
+async function async1() {
+console.log('async1 start')
+await async2()
+console.log('async1 end')
+return 'async return'
+}
+async function async2() {
+console.log('async2')
+}
+console.log('script start')
+setTimeout(function() {
+console.log('setTimeout')
+}, 0)
+async1().then(function(message) {
+console.log(message)
+})
+new Promise(function(resolve) {
+console.log('promise1')
+resolve()
+}).then(function() {
+console.log('promise2')
+})
+console.log('script end')
+```
+
+参考答案：
+```
+/**
+ * 结果
+ * 1 script start // 开始执行 console    并向  宏任务队列push setTimeout
+ * 2 async1 start // 执行async1 --> 执行 console
+ * 3 async2     // 执行async1 输出  并移交控制权到父执行栈 并清空同步任务
+ * 4 promise1 // 执行 构造函数  并向 微任务队列 push 回调1
+ * 5 script end  // 同步代码执行结束 控制权回到 async1
+ * 6 async1 end  // 执行console 并向 微任务队列 push 回调2
+ * 7 promise2   // 开始清空 微任务队列 执行回调1
+ * 8 async return  // 开始清空 微任务队列 执行回调2
+ * 9 setTimeout // 开始清空 宏任务队列
+ */
+```
