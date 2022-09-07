@@ -28,6 +28,7 @@
 - [vue-router](https://github.com/vuejs/router)：学习前端单页应用路由到底是怎么运行的
 - [vuex](https://github.com/vuejs/vuex)：学习状态管理基本设计，代码简单易读
 - [axios](https://github.com/axios/axios)：必看的网络封装库
+- [the-super-tiny-compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)：这是一个用易于阅读的JavaScript编写的现代编译器的所有主要部分的超级简化示例。
 
 ### 中等
 - [mini-vue](https://github.com/cuixiaorui/mini-vue)：实现vue3的核心模块，代码清晰，极力推荐
